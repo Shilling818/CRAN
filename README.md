@@ -16,7 +16,7 @@ The major objective of this work is to develop a deep learning application with 
 
 The proposed framework is shown below. It has two reciprocal directions of translation, i.e., SAR to optical and optical to SAR. Each direction consists of two adversarial deep networks, i.e., a multiscale convolutional encoder-and-decoder network as the translator vs. a convolutional network as the discriminator.
 
-![](images/Network Structure/Flow_chart.png)
+<img src="images/Network Structure/Flow_chart.png" style="zoom:80%;" />
 
 The following figure shows the architecture and parameters of the translator network, which is named as ***cascaded-residual adversarial network***, abbreviated ***CRAN***. It follows the main structure of U-Net and Pix2Pix with certain modifications.
 
@@ -36,7 +36,7 @@ A conventional binary classification loss is employed to train the discriminator
 
 To evaluate the performance of the proposed method in the context of existing image translation approaches, here, we compare it with widely-used CycleGAN and Pix2Pix using the 0.51m GF-3 dataset. These two networks are often used for image translation in the optical image domain, and as a benchmark for the experiment comparison. Note that the CycleGAN implemented here shares the same network structure with Pix2Pix, but is trained with the cyclic loop strategy. In order to ensure the fairness of comparison, the discriminators and the receptive fields of the generators are the same. The number of the generators’ layers and that of the total trainable parameters are the same.
 
-![](images/Different Network Structure/table.png)
+<img src="images/Different Network Structure/table.png" style="zoom:100%;" />
 
 
 
