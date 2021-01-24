@@ -6,7 +6,7 @@
 
 Owing to its distinct imaging mechanism and the complex electromagnetic (EM) wave scattering process, SAR (Synthetic Aperture Radar) exhibits very different imaging features from optical images. Some basic differences between SAR images and natural optical images are summarized in Table S1. Human’s visual system is adapted to the interpretation of optical images. SAR images are difficult to be interpreted by ordinary people. Although SAR images contain rich information about targets and scenes, such as geometric structure and material property, they can only be interpreted by well-trained experts.
 
-<img src="images/Purpose/background1.png" style="zoom:50%;" />
+<img src="images/Purpose/background1.png" style="zoom:25%;" />
 
 The major objective of this work is to develop a deep learning application with large amount of coregistered SAR and optical images where SAR images can be translated to optical images and vice versa. The translated optical image can then be used in assisted interpretation of SAR image by ordinary people.
 
@@ -57,4 +57,16 @@ Tensorflow version ==1.13.0 is used.
 
 ## Reference
 
-> Reciprocal translation between SAR and optical remote sensing images with cascaded-residual adversarial networks. SCIENCE CHINA Information Sciences, Doi: 10.1007/s11432-020-3077-5.
+> ```
+> @article{fureciprocal,
+>   title={Reciprocal translation between SAR and optical remote sensing images with cascaded-residual adversarial networks},
+>   author={Fu, Shilei and Xu, Feng and Jin, Ya-Qiu},
+>   journal={SCIENCE CHINA Information Sciences},
+>   DOI={10.1007/s11432-020-3077-5},
+>   year={2021},
+>   volume={64},
+>   number={2},
+>   pages={122301},
+>   publisher={Science China Press}
+> }
+> ```
